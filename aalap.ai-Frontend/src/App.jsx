@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <h1>Aalap AI Frontend</h1>
+    <div className="min-h-screen flex items-center justify-center bg-black text-white">
+      <h1 className="text-3xl font-semibold">
+        Aalap.ai
+      </h1>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
