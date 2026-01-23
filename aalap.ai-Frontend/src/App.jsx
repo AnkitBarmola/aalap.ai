@@ -1,14 +1,10 @@
 import React from "react";
+import Navbar from "./components/Navbar.jsx";
 
 function App() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white gap-2">
-      <h1 className="text-3xl font-semibold">
-        Aalap.ai
-      </h1>
-      <p className="text-sm opacity-70">
-        AI-powered music & emotion platform
-      </p>
+      <Navbar />
     </div>
   );
 }
